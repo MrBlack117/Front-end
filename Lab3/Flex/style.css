@@ -1,0 +1,55 @@
+.block_1{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    height: 300px;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.block_2{
+    height: 60px;
+    background-color: #47cdff;
+    text-align: center;
+}
+
+.block_3{
+    height: 240px;
+    background-color: #f7ff87;
+    text-align: center;
+}
+
+.block_4{
+    width: 80%;
+    height: 30px;
+    background-color: #fab8a0;
+    text-align: center;
+}
+
+.block_5{
+    width: 20%;
+    height: 30px;
+    background-color: #fc75fc;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+}
+
+.top_text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+}

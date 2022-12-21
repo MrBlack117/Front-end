@@ -1,0 +1,259 @@
+table {
+    table-layout: fixed;
+    width: 50%;
+
+}
+
+.first{
+    color: #0D0B04;
+    background-color: #108f8f;
+
+}
+
+.second{
+    color: #0D0B04;
+    background-color: #f5f510;
+}
+
+.first:hover{
+    color: #0D0B04;
+    background-color: #f5f510;
+
+}
+
+.second:hover{
+    color: #0D0B04;
+    background-color: #108f8f;
+}
+
+.position_main {
+    height: 120px;
+    width: 120px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.position_center{
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 157.5px;
+    left: 57.5px;
+
+
+}
+
+.position_1{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 105px;
+    left: 65px;
+
+}
+
+.position_2{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 225px;
+    left: 65px;
+}
+
+.position_3{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 165px;
+    left: 5px;
+}
+.position_4{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 165px;
+    left: 125px;
+}
+
+.position_5{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 20px;
+}
+
+.position_6{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 20px;
+}
+
+.position_7{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 110px;
+}
+
+.position_8{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 210px;
+    left: 110px;
+}
+
+
+.transform_main {
+    height: 120px;
+    width: 120px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+}
+
+.transform_center {
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: scale(0.375);
+}
+
+.transform_1{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, 60, 0);
+}
+
+.transform_2{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, -60, 0);
+}
+
+.transform_3{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, 0, 60);
+}
+
+.transform_4{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, 0, -60);
+}
+
+.transform_5{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, 45, 45);
+}
+
+.transform_6{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, 45, -45);
+}
+
+.transform_7{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, -45, 45);
+}
+
+.transform_8{
+    height: 120px;
+    width: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    transform: matrix(0.25, 0, 0, 0.25, -45, -45);
+}

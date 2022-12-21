@@ -1,0 +1,17 @@
+.first{
+
+}
+
+.second{
+
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.correction{
+    display: flex;
+    flex-direction: column;
+}

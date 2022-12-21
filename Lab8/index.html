@@ -1,0 +1,553 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lab8</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header container-fluid">
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-xxl">
+            <a class="navbar-brand" href="#">
+                <img src="pictures/logo.png" width="80" height="80">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                    aria-controls="offcanvasNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+                 aria-labelledby="offcanvasNavbar2Label">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Auction</h5>
+                    <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Продати</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Купити</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                               aria-expanded="false">
+                                Сервіси
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Продати</a></li>
+                                <li><a class="dropdown-item" href="#">Купити</a></li>
+                                <li><a class="dropdown-item" href="#">Зробити ставку</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Блог</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Про нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Контакти</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <a class="nav-link" aria-current="page" href="#">Увійти \ Зареєструватися</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="header-text">
+        <h1 class="header-main ">Найкраще місце для <br> Купівлі та Продажу</h1>
+        <div class="header-secondary">Швидко. Просто. Доступно.</div>
+        <div class="header-btn">
+            <a href="#" class="header-button">Зареєструватися</a>
+        </div>
+    </div>
+
+</div>
+
+<div class="auctions container-sm">
+    <div class="auctions-text-first">АУКЦІОНИ</div>
+    <div class="auctions-text-second">Діючі Аукціони</div>
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">2400₴</span>
+                <img class="card-img" src="pictures/card1.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Кросівки The North Face</p>
+                <div class="card-info-block">
+                    <p class="card-type">Взуття</p>
+                    <p class="card-bids">5 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">800₴</span>
+                <img class="card-img" src="pictures/card2.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Рюкзак Adidas</p>
+                <div class="card-info-block">
+                    <p class="card-type">Аксесуари</p>
+                    <p class="card-bids">8 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">1200₴</span>
+                <img class="card-img" src="pictures/card3.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Ланцюжок Ralph Lauren</p>
+                <div class="card-info-block">
+                    <p class="card-type">Аксесуари</p>
+                    <p class="card-bids">7 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+
+
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">8400₴</span>
+                <img class="card-img" src="pictures/card4.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Годинник Calvin Klein</p>
+                <div class="card-info-block">
+                    <p class="card-type">Аксесуари</p>
+                    <p class="card-bids">12 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">3200₴</span>
+                <img class="card-img" src="pictures/card5.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Кросівки Adidas TERREX</p>
+                <div class="card-info-block">
+                    <p class="card-type">Взуття</p>
+                    <p class="card-bids">5 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">500₴</span>
+                <img class="card-img" src="pictures/card6.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Oкуляри Answear</p>
+                <div class="card-info-block">
+                    <p class="card-type">Аксесуари</p>
+                    <p class="card-bids">9 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">1800₴</span>
+                <img class="card-img" src="pictures/card7.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Кросівки Gant Bevinda</p>
+                <div class="card-info-block">
+                    <p class="card-type">Взуття</p>
+                    <p class="card-bids">10 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+        </div>
+
+        <div class="card">
+
+            <div class="card-immage">
+                <span class="price-circle">1050₴</span>
+                <img class="card-img" src="pictures/card8.webp">
+            </div>
+            <div class="card-info">
+                <p class="card-name">Рюкзак Puma</p>
+                <div class="card-info-block">
+                    <p class="card-type">Аксесуари</p>
+                    <p class="card-bids">11 ставок</p>
+                </div>
+
+                <a class="card-btn" href="#">Зробити ставку</a>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container-xxl px-4 py-5">
+    <div class="about-text">
+        <div class="about-header">
+            <div class="about-text-first">ЯК?</div>
+            <div class="about-text-second">Як Це Працює</div>
+        </div>
+    </div>
+    <div class="row g-4 row-cols-1 row-cols-lg-4">
+        <div class="feature col">
+            <div class="step">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <span class="feature-icon">👋</span>
+                </div>
+            </div>
+            <h3 class="fs-2">Зареєструйтеся</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+                and
+                probably just keep going until we run out of words.</p>
+
+        </div>
+        <div class="feature col">
+            <div class="step">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <span class="feature-icon">💰</span>
+                </div>
+            </div>
+            <h3 class="fs-2">Зробіть ставку</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+                probably just keep going until we run out of words.</p>
+
+        </div>
+        <div class="feature col">
+            <div class="step">
+                <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                    <span class="feature-icon">✔</span>
+                </div>
+            </div>
+            <h3 class="fs-2">Підтвердіть ставку</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+                probably just keep going until we run out of words.</p>
+
+        </div>
+        <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary fs-2 mb-3">
+                <span class="feature-icon">💍</span>
+            </div>
+            <h3 class="fs-2">Виграйте</h3>
+            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+                probably just keep going until we run out of words.</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="block-about container-xxl px-4 py-5">
+
+    <div class="row g-4 row-cols-1 row-cols-lg-2">
+        <div class="about-immage col">
+            <img class="about-img" src="pictures/head-background.jpg">
+        </div>
+
+        <div class="about-text col">
+            <div class="about-header">
+                <div class="about-text-first">Ми</div>
+                <div class="about-text-second">Про нас</div>
+            </div>
+
+            <div class="about-points">
+                <div class="point">
+                    <span class="point-icon">🤝</span>
+                    <div class="point-text">
+                        <h5 class="point-text-header">Швидка підтримка</h5>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</div>
+                    </div>
+                </div>
+                <div class="point">
+                    <span class="point-icon">❤</span>
+                    <div class="point-text">
+                        <h5 class="point-text-header">Гарні відгуки</h5>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</div>
+                    </div>
+
+                </div>
+                <div class="point">
+                    <span class="point-icon">🕑</span>
+                    <div class="point-text">
+                        <h5 class="point-text-header">Цілодобова підтримка</h5>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, debitis!</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="slider container-fluid">
+    <div class="slider-header">
+        <h3>Відгуки</h3>
+        <h2>Щасливі клієнти</h2>
+    </div>
+    <div class="owl-carousel container-md owl-theme">
+        <div class="comment">
+            <div class="comment-author">
+                <div class="comment-author-image">
+                    <img src="pictures/Person1.jpg" class="comment-author-img">
+                </div>
+                <div class="comment-author-info">
+                    <div class="comment-author-name">
+                        Ivan Duda
+                    </div>
+                    <div class="comment-author-profession">
+                        Web Developer
+                    </div>
+                </div>
+            </div>
+            <div class="comment-text">
+                “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis
+                libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet
+                necessitatibus. A, provident aperiam!”
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-author">
+                <div class="comment-author-image">
+                    <img src="pictures/Person2.jfif" class="comment-author-img">
+                </div>
+                <div class="comment-author-info">
+                    <div class="comment-author-name">
+                        Michael Jordan
+                    </div>
+                    <div class="comment-author-profession">
+                        Basketball player
+                    </div>
+                </div>
+            </div>
+            <div class="comment-text">
+                “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis
+                libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet
+                necessitatibus. A, provident aperiam!”
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-author">
+                <div class="comment-author-image">
+                    <img src="pictures/Person3.jfif" class="comment-author-img">
+                </div>
+                <div class="comment-author-info">
+                    <div class="comment-author-name">
+                        Arthur Morgan
+                    </div>
+                    <div class="comment-author-profession">
+                        Gunslinger
+                    </div>
+                </div>
+            </div>
+            <div class="comment-text">
+                “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis
+                libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet
+                necessitatibus. A, provident aperiam!”
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-author">
+                <div class="comment-author-image">
+                    <img src="pictures/Person4.jpg" class="comment-author-img">
+                </div>
+                <div class="comment-author-info">
+                    <div class="comment-author-name">
+                        Sherlock Holmes
+                    </div>
+                    <div class="comment-author-profession">
+                        Detective
+                    </div>
+                </div>
+            </div>
+            <div class="comment-text">
+                “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis
+                libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet
+                necessitatibus. A, provident aperiam!”
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-author">
+                <div class="comment-author-image">
+                    <img src="pictures/Person5.webp" class="comment-author-img">
+                </div>
+                <div class="comment-author-info">
+                    <div class="comment-author-name">
+                        Saul Goodman
+                    </div>
+                    <div class="comment-author-profession">
+                        Lawyer
+                    </div>
+                </div>
+            </div>
+            <div class="comment-text">
+                “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis
+                libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet
+                necessitatibus. A, provident aperiam!”
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-author">
+                <div class="comment-author-image">
+                    <img src="pictures/Person6.webp" class="comment-author-img">
+                </div>
+                <div class="comment-author-info">
+                    <div class="comment-author-name">
+                        Anakin Skywalker
+                    </div>
+                    <div class="comment-author-profession">
+                        The chosen one
+                    </div>
+                </div>
+            </div>
+            <div class="comment-text">
+                “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis
+                libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet
+                necessitatibus. A, provident aperiam!”
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="end container-xxl">
+    <h3>Створюйте аккаунт та починайте купляти і продавати вже зараз!</h3>
+    <div class="header-btn">
+        <a href="#" class="header-button">Зареєструватися</a>
+    </div>
+</div>
+
+<div class="bottom container-fluid px-4 py-5">
+    <div class="container-xxl">
+
+        <div class="row g-4 row-cols-1 row-cols-lg-4">
+            <div class="footer col">
+                <a class="navbar-brand" href="#">
+                    <img src="pictures/logo.png" width="80" height="80">
+                </a>
+                <p class="bottom-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui
+                    dolor, iusto
+                    iure.</p>
+                <a href="#">Дізнатися більше</a>
+            </div>
+
+            <div class="footer col">
+                Опції
+                <a href="#">Зареєструватися</a>
+                <a href="#">Залогінитися</a>
+                <a href="#">Купити</a>
+                <a href="#">Продати</a>
+                <a href="#">Зробити ставку</a>
+            </div>
+
+            <div class="footer col">
+                Сервіси
+                <a href="#">Дізнатися більше</a>
+                <a href="#">Дізнатися більше</a>
+                <a href="#">Дізнатися більше</a>
+                <a href="#">Дізнатися більше</a>
+                <a href="#">Дізнатися більше</a>
+            </div>
+
+            <div class="footer col">
+                Контакти
+                <a href="#">Центр підтримки</a>
+                <a href="#">Форум</a>
+                <a href="#">Твіттер</a>
+                <a href="#">Телеграм</a>
+                <a href="#">Пошта</a>
+            </div>
+        </div>
+        <div class="footer-end">
+            Copyright ©2022 All rights reserved
+        </div>
+
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+            margin: 50,
+            loop: true,
+            dots: true,
+            autoplay: true,
+            autoplayHoverPause: true,
+            autoplayTimeout: 10000,
+            autoplaySpeed: 2000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    });
+</script>
+</body>
+</html>
